@@ -1,0 +1,96 @@
+body{
+	background: url("../../assets/img/bg/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, tr, th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+th{
+	cursor: pointer;
+	background: gold;
+	text-align: center;
+}
+
+th:hover {
+   	/*color: white;*/
+    text-decoration: underline;
+    background: yellow;
+    transition: 1s;
+
+}
+
+tr{
+	text-align: left;
+	background: white;
+}
+
+tr:nth-child(even){
+	background: #f2f2f2;
+}
+
+tr:hover{
+	background: #ddd;
+}
+
+.active{
+	font-weight: bold;
+}
+
+.carousel-container{
+	height: 625px;
+}
+
+.carousel-size{
+	height: 100%;
+}
+
+.dropdown-menu{
+	background-color: grey;
+}
+
+.dropdown-item{
+	color: white;
+}
+
+.dropdown-item:hover{
+	background-color: gold;
+	color: black;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+	background-color: gold;
+	color: black;
+}
+
+.pembatas{
+	height: 1px;
+}
+
+.search{
+	width: 500px;
+	height: 40px;
+}
+
+.search-container{
+	height: 20px;
+}
+
+.super-container{
+	opacity: 1;
+}
+
+.tabel-container{
+	overflow-y: auto;
+	height: 500px;
+}
